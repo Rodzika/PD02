@@ -1,69 +1,38 @@
 #2.Uzd
 
-int main()
+number = int(input("Enter the number : "))
 
-int num, count = 1, sum = 0;
+factorial = 1
 
-print f("Enter a positive number\n");
-scanf("%d" , &num);
-
-printf("um of natural numbes from 1 to%d is:\n", num)
-while(count <= num)
-{
- 
- sum = sum + count;
- printf("%d ", count);
- count++;
- 
- if(count > num)
- {
-  printf(" = %d\n", sum);
-  }
- else
- {
-  printf("+ ");
-  }
- 
- }
-
-return 0;
+if ( number < 0):
+    print("cant Compute factorial for Negative Numbers")
+elif (number < 2):
+    print("{}! = {}".format(number, factorial))
+else:
+    for num in range(number, 1 -1):
+        factorial = factorial * num
+    
+    print("{}! = {}".format(number, factorial))
 
 #3.uzd
 
-int main()
-
-int num, count, fact = 1;
-
-print("Enter a number to find its Factorial\n");
-scanf("%d", &num);
-
-for(count = 1; count <= num; count++)
-{
- fact = fact * count;
- }
-
-printf("Factorial of %d is %d\n", num, fact);
-
-return 0;
+def factorial(n):
+    
+    factorial= 1
+    
+    for i in range(n):
+        factorial*=i+i
+        return factorial
+    
+    for i in rango(10):
+        print(factorial(i))
 
 #4.Uzd
 
-void main()
-{
- int n;
- clrscr()
- printf("\n Enter the number: ");
- scanf("\n xd", &n);
-while(n>0)
-{
- printf("xd,",n)
- --n;
- }
- {
-  printf("=xd",num[i]);
-  }
- getch();
- }
+n=int(input("Enter the number="))
+while n>=0:
+    print(n,end=' ')
+    n=n-1
 
 #5.Uzd
 
@@ -75,6 +44,7 @@ for i in range(num, 0,-1):
         print("*", end =" ")
     print()
     
+
 #6.Uzd
 
 input random
